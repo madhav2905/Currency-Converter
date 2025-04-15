@@ -15,7 +15,7 @@ A simple and responsive Currency Converter web application built using HTML, CSS
 
 ## 🌐 Live Demo
 Check out the preview here:
-[Currency Converter](https://currency-converter-two-phi.vercel.app/).
+[Currency Converter](https://illustrious-macaron-be3bff.netlify.app).
 
 ## 📝 Contributing
 Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull request.
