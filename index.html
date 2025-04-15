@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=currency_exchange"/>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/893/893078.png">
+</head>
+<body>
+    <div class="container">
+        <h1>CURRENCY CONVERTER</h1>
+        <form action="">
+            <div class="amount">
+                <span>Enter Amount:</span>
+                <input type="text" placeholder="Amount">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <span>From</span>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                        <select name="from" id=""></select>
+                    </div>
+                </div>
+                <span class="material-symbols-outlined">
+                    currency_exchange
+                </span>
+                <div class="to">
+                    <span>To</span>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                        <select name="to" id=""></select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">1USD = 84.44INR</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
